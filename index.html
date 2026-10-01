@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Praktikum 3 - Asisten AI UMKM</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="site-header">
+        <div class="container header-container">
+            <div class="header-brand">
+                <h1>Asisten AI Untuk UMKM</h1>
+                <p class="lyrics-quote">
+                    But what if I call?<br>
+                    And you pick up the phone<br>
+                    And I use this holiday to make my way to your ghost<br>
+                    But, what if you're lonely?<br>
+                    And you know I am too?<br>
+                    And I get the chance to say<br>
+                    "I wish I didn't, but I miss you"<br>
+                    I miss you
+                </p>
+            </div>
+            <nav class="nav-menu" aria-label="Navigasi Utama">
+                <a href="#profile" class="nav-link">Profile</a>
+                <a href="#formdata" class="nav-link">Form</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container main-content">
+        <section id="profile" class="card profile-section">
+            <h2>About</h2>
+            <p>Gatau, ini aja saya disruruh</p>
+        </section>
+
+        <section id="formdata" class="card form-grid-section"> 
+            <div class="form-wrapper">
+                <h3>Form Data UMKM</h3>
+                <form action="#" method="POST" onsubmit="event.preventDefault();">
+                    <div class="form-group">
+                        <label for="name">Masukkan nama anda:</label>
+                        <input type="text" id="name" name="name" placeholder="Nama lengkap..." required>
+                    </div>
+
+                    <fieldset class="gender-fieldset">
+                        <legend>Jenis Kelamin:</legend>
+                        <div class="radio-item">
+                            <input type="radio" name="gender" id="pria" value="laki-laki" checked>
+                            <label for="pria">Laki-laki</label>
+                        </div>
+                        <div class="radio-item">
+                            <input type="radio" name="gender" id="wanita" value="perempuan">
+                            <label for="wanita">Perempuan</label>
+                        </div>
+                    </fieldset>
+
+                    <div class="form-actions">
+                        <input type="submit" value="Submit" class="btn btn-submit">
+                    </div>
+                </form>
+            </div>
+
+            <div class="image-wrapper">
+                <img src="es-teh.jpg" alt="Gambar es teh(jadi haus)" class="responsive-img">
+                <span class="img-caption">Es Tehpun sodaapp ni</span>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <p>&copy; 2026 Praktikum PAW - Pertemuan 3</p>
+    </footer>
+
+</body>
+</html>
